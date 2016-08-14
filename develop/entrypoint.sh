@@ -40,7 +40,7 @@ if [ -d ".git" ]; then
 else
     git init
     git remote add origin https://github.com/PokemonGoMap/PokemonGo-Map.git
-    git pull origin develop
+    git pull origin scan-slow-down-fix
     pip install -r requirements.txt
     npm install
     npm run-script build
